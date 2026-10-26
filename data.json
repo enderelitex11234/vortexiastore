@@ -1,0 +1,105 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Minecraft Java + Bedrock",
+      "category": "Minecraft",
+      "price": 850,
+      "stock": 9,
+      "image": "https://cdn.discordapp.com/attachments/1524476618347642972/1562735948159000626/image.png?ex=6adf0744&is=6addb5c4&hm=c5a39b118673b9bf2fb1e2e2904b1a15baac1448d78e4213acb91c59f168fc49&",
+      "description": "Java + Bedrock Edition. Contact support for delivery details.",
+      "unlimited": false,
+      "active": true,
+      "status": "Low Stock"
+    },
+    {
+      "id": 2,
+      "name": "Minecraft Bedrock Android",
+      "category": "Minecraft",
+      "price": 230,
+      "stock": 7,
+      "image": "",
+      "description": "Minecraft Bedrock for Android.",
+      "unlimited": false,
+      "active": true,
+      "status": "In Stock"
+    },
+    {
+      "id": 3,
+      "name": "Minecraft Bedrock iOS",
+      "category": "Minecraft",
+      "price": 330,
+      "stock": 6,
+      "image": "",
+      "description": "Minecraft Bedrock for iOS.",
+      "unlimited": false,
+      "active": true,
+      "status": "Low Stock"
+    },
+    {
+      "id": 4,
+      "name": "Stream Account (FA)",
+      "category": "Accounts",
+      "price": 70,
+      "stock": 30,
+      "image": "",
+      "description": "Randome game",
+      "unlimited": false,
+      "active": true,
+      "status": "In Stock"
+    }
+  ],
+  "orders": [
+    {
+      "id": 1792950483727,
+      "email": "playpoint46262@gmail.com",
+      "items": [
+        {
+          "productId": 1,
+          "name": "Minecraft Java + Bedrock",
+          "price": 850,
+          "qty": 1
+        }
+      ],
+      "total": 850,
+      "paymentMethod": "bKash",
+      "transactionId": "jhgjghuyt",
+      "phone": "933465646",
+      "status": "Delivered",
+      "createdAt": "2026-10-25T17:48:03.727Z",
+      "updatedAt": "2026-10-25T17:49:21.390Z"
+    },
+    {
+      "id": 1792993385920,
+      "email": "mdfftre343@gmail.com",
+      "items": [
+        {
+          "productId": 1,
+          "name": "Minecraft Java + Bedrock",
+          "price": 850,
+          "qty": 1
+        }
+      ],
+      "total": 850,
+      "paymentMethod": "bKash",
+      "transactionId": "3454rgredt4edgd",
+      "phone": "0174545433653",
+      "status": "Delivered",
+      "createdAt": "2026-10-26T05:43:05.920Z",
+      "stockDeducted": true,
+      "updatedAt": "2026-10-26T05:44:58.152Z"
+    }
+  ],
+  "users": [
+    {
+      "id": 1792950463287,
+      "email": "playpoint46262@gmail.com",
+      "passwordHash": "$2a$10$KQZ8VtWx2KKbBePZfvFezujg6adaIB8TLYI2xrwIFfPTs9xXPlCdW"
+    },
+    {
+      "id": 1792993365320,
+      "email": "mdfftre343@gmail.com",
+      "passwordHash": "$2a$10$IJ/DEDXPkr3ZMP2YB.RFTek.5Gb5vyuRBd7YDdjAOJVEfvC.G/fwG"
+    }
+  ]
+}
